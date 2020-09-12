@@ -1,16 +1,40 @@
+<!-- Usual setup for an HTML document -->
 <!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
 
-<h2>External JavaScript</h2>
+    <!-- title of the file -->
+    <title>Lab-1-ITMD-462</title>
 
-<p id="demo">A Paragraph.</p>
+    <!-- Connecting the font library to the HTML -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-<button type="button" onclick="myFunction()">Try it</button>
+    <!-- Connecting the External CSS file to the HTML -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<p>(myFunction is stored in an external file called "myScript.js")</p>
+  <body>
+	  <!-- Creating a header for my index.html file -->
+	  <h1>ITMD-462 Web Site App Development Lab 1</h1>
 
-<script src="myScript.js"></script>
+    <!-- My paragraph describing the assignment -->
+	  <p>I will be displaying my current courses that I am attending at IIT in the Fall of 2020 in an iterary form using arrays/objects, this.xxxx commands, and an external javascript to process my functions.</p>
 
-</body>
+    <!-- Connecting the JavaScript file to the HTML body -->
+    <script src="script.js"></script>
+
+    <!-- Creating the paragraphs of course information -->
+    <p> <span class = "bold_text"> ITMS-448 </span> <span class = "test_text"> Cyber Security Technologies </span> </p>
+    <p> <span class = "bold_text"> IPRO-497 </span> <span class = "test_text"> 
+      Digital Service Design 2 </span> </p>
+    <p> <span class = "bold_text"> ITMD-362 </span> <span class = "test_text"> 
+      Human-Computer Interactions </span> </p>
+    <p> <span class = "bold_text"> ITMD-469 </span> <span class = "test_text"> 
+      Web Real-Time Communications </span> </p>
+    <p> <span class = "bold_text"> ITMD-462 </span> <span class = "test_text"> 
+      Web Site App Development </span> </p>    
+    
+  </body>
 </html>
